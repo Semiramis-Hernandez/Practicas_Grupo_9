@@ -262,8 +262,8 @@ console.log(tomate);
 
 //Ejemplo 1 (¿Cual es la posicion de la tocineta?):
 let indiceTocineta = comidas.findIndex(
-    function(comidasa){
-        return comidasa === "🥓";
+    function(comida){
+        return comida === "🥓";
     }
 );
 
